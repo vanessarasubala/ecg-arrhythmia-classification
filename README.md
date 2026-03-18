@@ -26,6 +26,19 @@ This project builds a machine learning model to classify ECG (electrocardiogram)
 ## Example Output
 The model performance is evaluated using a confusion matrix to assess classification quality between normal and abnormal ECG signals.
 
+## Model Performance
+
+![Confusion Matrix](outputs/confusion_matrix.png)
+
+## Results
+- Accuracy: 90.5%
+- Model evaluated using confusion matrix
+
+## Key Insight
+- Dataset is imbalanced (normal >> abnormal)
+- Model performs better on normal class
+- Detecting abnormal heartbeats remains a challenge
+
 ## Interpretation
 - The model shows strong performance in identifying normal heartbeats.
 - However, there are misclassifications in abnormal cases, indicating potential challenges due to class imbalance.
